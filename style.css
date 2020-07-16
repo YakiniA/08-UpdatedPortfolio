@@ -1,47 +1,19 @@
 /*Used for styling the name in the nav bar*/
 
-.sidebar-inner{
-    position: relative;
-    height:100%;
-    overflow-y: auto;
-    padding : 45px 40px;
-    
-}
-
-.personal-photo img{
-    width:155px;
-    height:155px;
-    border-radius:50%;
-    margin: 20px;
-}
-
-.name{
-    color: rgb(83, 19, 69);
-    margin: 10px;
-   
-    font-family: 'Sail', cursive;
-    font-size: 28px;
-    margin-top: -20px;
-}
-
-.role{
-    margin: 10px;
-   
-}
 .navbar-brand{
     color: rgb(83, 19, 69);
     margin: 10px;
     text-align:center;
     font-family: 'Sail', cursive;
     font-size: 28px;
-    margin-top: -20px;
+    /* margin-top: -20px; */
 }
 
 /*Used for styling the links present in the nav bar*/
 .nav-link{
    color: rgb(83, 19, 69);
    font-family: 'Kotta One', serif;
-   margin-top:15px;
+   /* margin-top:15px; */
    font-size: 20px;
   
 }
@@ -76,12 +48,12 @@ body{
 }
 
 /*Used for making the nav links present at appropriate position in the page*/
-.navBarLinks{  
+/* .navBarLinks{  
   position: absolute;
   top: 8px;
   right: 16px;
   font-size: 18px;
-} 
+}  */
 
 /*Code to make the image as responsive in About page */
 .imgResponsive{
@@ -110,46 +82,11 @@ footer {
     margin: 8px 10px;
     margin-left:15px;
 }
-/* Styling portfolio page */
-/* .imagecontainer {
-    position: relative;  
-    /* border: 1px solid black; */
-  /*  margin-bottom: 20px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height:100%;
-} */
-
-/* To make content align with image in Portfolio page*/
-/* .text-block{
-    position:absolute;
-   
-    background-color: lightgrey;
-    color: rgb(43, 41, 41);
-    text-align:center;
-    width:100%;    
-    height:100%;
-} */
-
-/* .card-reveal{
-   display:none;
-    position: absolute;  
-  
-    background-color: white;
-
-    top:100%;
-    height:100%;
-  
-    overflow-y:auto;
-    z-index:1;
-    box-sizing: border-box; 
-    /* transform: translateY(0px); */
-   
-/*} */
 
 
 /* These media queries are helpful in achieving responsive nav bar*/
   @media screen and (max-width: 767px) {
-    .navbar-brand{
+    /* .navbar-brand{
         width:100%;
     }
     .navbar-nav{
@@ -168,20 +105,20 @@ footer {
         padding-right: 10px;
         padding-left: 0;
        
-    }       
+    }        */
 }
 
     @media screen and (max-width: 530px) {
-        .navBarLinks{      
+        /* .navBarLinks{      
             left: 25%;
-        }
+        } */
     
   }
 
   @media screen and (max-width: 500px) {
-  p{
+  /* p{
       margin-top:190px;
-  }
+  } */
 
 }
 
