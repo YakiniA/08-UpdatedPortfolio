@@ -83,7 +83,6 @@ footer {
     margin-left:15px;
 }
 
-
 /* These media queries are helpful in achieving responsive nav bar*/
   @media screen and (max-width: 767px) {
     /* .navbar-brand{
