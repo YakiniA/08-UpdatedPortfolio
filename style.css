@@ -5,15 +5,14 @@
     margin: 10px;
     text-align:center;
     font-family: 'Sail', cursive;
-    font-size: 28px;
-    /* margin-top: -20px; */
+    font-size: 30px !important;
+   
 }
 
 /*Used for styling the links present in the nav bar*/
 .nav-link{
    color: rgb(83, 19, 69);
    font-family: 'Kotta One', serif;
-   /* margin-top:15px; */
    font-size: 20px;
   
 }
@@ -81,6 +80,7 @@ footer {
 .card{
     margin: 8px 10px;
     margin-left:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* These media queries are helpful in achieving responsive nav bar*/
