@@ -26,37 +26,18 @@ h3, h4{
    color: rgb(83, 19, 69);
    font-family: 'Rye', cursive;;
 }
-/* 
- body{
-    background: url("https://images.unsplash.com/photo-1542373285-a85124c4f3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-  
-  height: 100%; 
-  width:100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
+ 
 /* min-height:100vh, position:relative helps the footer to stick to the bottom of the page*/
 body{
     /* background-color: rgb(243, 239, 239); */
-  
+    /* background-color:rgb(231, 189, 166) !important; */
+    background-color:rgb(235, 205, 189) !important; 
     position: relative;
     min-height: 100vh;
     padding-bottom: 60px;  
+    
 }
-
-/* .container{   
-    background-color: rgb(235, 228, 228);  
-} */
-
-/*Used for making the nav links present at appropriate position in the page*/
-/* .navBarLinks{  
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  font-size: 18px;
-}  */
 
 /*Code to make the image as responsive in About page */
 .imgResponsive{
@@ -70,6 +51,11 @@ p{
     font-style: normal;
 }
 
+.style-Container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 4%;
+}
+
 .title{
     margin-left: 38%;
 }
@@ -78,6 +64,9 @@ p{
     margin-left: 20%;
 }
 
+.lastRowCard{
+    margin-left:15% !important;
+} 
 footer {
     position: absolute;
     bottom: 0px;
@@ -110,6 +99,8 @@ div.card:hover{
 .project-description{
     padding:8px;
     margin-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
 }
 
 .technologies {
