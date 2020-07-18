@@ -57,11 +57,11 @@ p{
 }
 
 .title{
-    margin-left: 38%;
+    margin-left: 30%;
 }
 
 .contact-details{
-    margin-left: 20%;
+    margin-left: 36%;
 }
 
 .lastRowCard{
@@ -136,23 +136,38 @@ div.card:hover{
     }
 }
 
+@media screen and (max-width: 630px) {
+    .contact-details{
+        margin-left: 25%;
+        
+    }    
+}   
+
     @media screen and (max-width: 530px) {
         .year{
             width: 25px;
             text-align: center;
-        }
-
-         /* .mainImg{
-            display: block; 
-            margin-left: auto !important;
-            margin-right: auto !important;
-            width: 50% !important; 
-            text-align: center;
-        }  */
-    
+        }   
   }    
+  @media screen and (max-width: 517px) {
+    .contact-details{
+        margin-left: 18%;
+        
+    }  
+}    
 
-
+  @media screen and (max-width: 488px) {
+    .contact-details{
+        margin-left: 3%;
+        
+    }  
+}    
+@media screen and (max-width: 410px) {
+    .contact-details{
+        margin-left: 0%;
+        
+    }  
+}
   @media screen and (max-width: 400px) {
     .year{
         width: 15px;
@@ -160,14 +175,3 @@ div.card:hover{
     }
 
 }
-
-@media screen and (max-width: 400px) {
-    .contact-details{
-        margin-left: 4%;
-        
-    }
-
-}
-
-  
- 

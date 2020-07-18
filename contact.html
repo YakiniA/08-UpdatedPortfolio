@@ -44,10 +44,10 @@
     </div>
 </nav>
 
-  <div class="container style-Container p-3 m-10">
+  <div class="container style-Container w-75 p-3 m-10">
     <section class="row">
       <header class="col">
-        <h3 class="title">Contact</h3>
+        <h3 class="text-center">Contact</h3>
       </header>
     </section>
     <br/>
@@ -56,7 +56,7 @@
     <section>
     <div class= "content">
       <p class= "text-center">
-        I am available for hire and open to new opporunities as a full stack web developer. Please, feel free to contact me.
+        I am available for hire and open to new opporunities as a full stack web developer. <br> <br>Please, feel free to contact me.
 
       </p><br/><br/>
 
@@ -66,7 +66,7 @@
 
           <i class= "fa fa-envelope"></i>
         </a>
-          <a  href="mailto:yakinilatha09@gmail.com" >yakinilatha09@gmail.com</a>
+          <a  href="mailto:yakinilatha09@gmail.com" >gmail.com/Yakini</a>
         </p>
 
         <p>
@@ -88,7 +88,19 @@
     </div>
     </section>
   </div>
+<script>
+  const mq = window.matchMedia( "(max-width: 400px)" );
 
+   if(mq.matches){
+        if($('div a').hasClass('rounded-circle')){
+            $("p a").removeClass('btn-secondary');
+            $("p a").removeClass('rounded-circle');
+            $("p a").removeClass('mr-4');
+            $("p a").removeClass('btn-lg');
+        }
+   
+    }
+</script>
   <footer>
     Copyright &copy; 2020 : Yakini Arumuga Kani
   </footer>
