@@ -70,6 +70,14 @@ p{
     font-style: normal;
 }
 
+.title{
+    margin-left: 38%;
+}
+
+.contact-details{
+    margin-left: 20%;
+}
+
 footer {
     position: absolute;
     bottom: 0px;
@@ -158,6 +166,14 @@ div.card:hover{
     .year{
         width: 15px;
         text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .contact-details{
+        margin-left: 4%;
+        
     }
 
 }
