@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 /*Used for styling the name in the nav bar*/
 
 .navbar-brand{
@@ -22,7 +26,7 @@ h3, h4{
    color: rgb(83, 19, 69);
    font-family: 'Rye', cursive;;
 }
-
+/* 
  body{
     background: url("https://images.unsplash.com/photo-1542373285-a85124c4f3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
   
@@ -31,7 +35,7 @@ h3, h4{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 /* min-height:100vh, position:relative helps the footer to stick to the bottom of the page*/
 body{
@@ -42,9 +46,9 @@ body{
     padding-bottom: 60px;  
 }
 
-.container{   
+/* .container{   
     background-color: rgb(235, 228, 228);  
-}
+} */
 
 /*Used for making the nav links present at appropriate position in the page*/
 /* .navBarLinks{  
@@ -74,7 +78,7 @@ footer {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    background-color:darkgrey;
+    background-color:rgb(235, 218, 210);
 }
 
 .card{
@@ -83,41 +87,64 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.year{
+    width:130px;
+    color: rgb(59, 58, 58);
+    font-style:italic;
+    text-align: center !important;
+    border-right: 1px solid  rgb(59, 58, 58);
+}
+
+.project-description{
+    padding:8px;
+    margin-left: 15px;
+}
+
+.technologies {
+    color: rgb(190, 102, 102);
+}
+.projects{
+    color:  rgb(190, 102, 102);
+}
+
+.certifications{
+    color:  rgb(190, 102, 102);
+}
 /* These media queries are helpful in achieving responsive nav bar*/
-  @media screen and (max-width: 767px) {
-    /* .navbar-brand{
-        width:100%;
-    }
-    .navbar-nav{
-        display:flex;
-        flex-direction: row;    
-        margin-bottom: 8px;
+
+@media screen and (max-width: 1024px) {
+    
+    .year{
+        width: 40px;
+        text-align: center;
+        margin-left: 8px !important;
+        margin: 8px !important;
        
     }
-    .navBarLinks{      
-        left: 35%;
-        top: 55%; 
-        font-size: 18px;     
-       
-    }  
-    .navbar-nav .nav-link {
-        padding-right: 10px;
-        padding-left: 0;
-       
-    }        */
+
+   }
+
+  @media screen and (max-width: 768px) {
+    
+    .year{
+        width: 35px;
+        text-align: center;
+    }
 }
 
     @media screen and (max-width: 530px) {
-        /* .navBarLinks{      
-            left: 25%;
-        } */
+        .year{
+            width: 25px;
+            text-align: center;
+        }
     
   }
 
-  @media screen and (max-width: 500px) {
-  /* p{
-      margin-top:190px;
-  } */
+  @media screen and (max-width: 400px) {
+    .year{
+        width: 15px;
+        text-align: center;
+    }
 
 }
 

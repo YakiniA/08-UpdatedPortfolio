@@ -22,7 +22,7 @@
 <body>
   <!-- Used Semantic HTML nav, section, article, footer along with Bootstrap -->
   <!-- Bootstrap Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: darkgrey;">  
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgb(235, 218, 210);">  
     <a class="navbar-brand" href="#">Yakini Arumuga Kani</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
       <span class="navbar-toggler-icon"></span>
@@ -36,141 +36,129 @@
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+        <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
 </nav>
 
-  <div class="container w-75 p-3 m-4">
-    <div class="row ml-2">
-      <header class="col">
-        <h3>Portfolio</h3>
-      </header>
-    </div> 
-    <hr>    
-    <div class="row">
-      <!-- ml-2 mr-4 mb-5 -->
-        <div class="card  " style="width: 450px;">
-          <img src="Assets/Images/spaceexplorationportfolio.jpg" class="card-img-top" alt="Space Exploration" style="width:100%">
-          <div class="card-body">
-            <h5 class="card-title">Space Exploration</h5>
-            <p class="card-text">Mobile-focused web app where users can explore, and know about the space related stuffs from NASA API.</p>
-            <a href= "https://jordanrbunnell.github.io/spaceexploration/" target="_blank"  data-toggle="tooltip" data-placement="top"  title="View Online" class="btn btn-info btn-lg mr-3">
-              <i class= "fa fa-external-link"></i>
-              </a>
-              <a href= "https://github.com/jordanrbunnell/spaceexploration" target="_blank" data-toggle="tooltip"  data-placement="top"  title="View Source" class="btn btn-info btn-lg ">
-                <i class= "fa fa-github"></i>
-                </a>
-          </div>
-        </div>
-        <!-- ml-2 mb-5 -->
-        <div class="card  " style="width: 450px; ">
-          <img src="Assets/Images/CodingQuizPortfolio.jpg" class="card-img-top" alt="Code Quiz" style="width:100%">
-          <div class="card-body">
-            <h5 class="card-title">Code Quiz</h5>
-            <p class="card-text">Web app where users have to answer the Javascript questionnaire within the given time.</p>
-            <a href= "https://yakinia.github.io/04-WebAPIs-CodeQuiz/" target="_blank"  data-toggle="tooltip" data-placement="top"  title="View Online" class="btn btn-info btn-lg mr-3">
-              <i class= "fa fa-external-link"></i>
-              </a>
-              <a href= "https://github.com/YakiniA/04-WebAPIs-CodeQuiz" target="_blank" data-toggle="tooltip"  data-placement="top"  title="View Source" class="btn btn-info btn-lg ">
-                <i class= "fa fa-github"></i>
-                </a>
-          </div>
-        </div>
-  
-    </div>
-      
-    <div class="row ">
-      <!-- ml-2 mr-4 mb-5 -->
-      <div class="card " style="width: 450px; ">
-        <img src="Assets/Images/WeatherDashboardportfolio.jpg" class="card-img-top" alt="Weather Dashboard" style="width:100%">
-        <div class="card-body">
-          <h5 class="card-title">Weather Dashboard</h5>
-          <p class="card-text">Mobile-focused web app where users can see the weather details of a city, using third party API.</p>
-          <a href= "https://yakinia.github.io/06-ServerSideAPIs-WeatherDashboard/" target="_blank"  data-toggle="tooltip" data-placement="top"  title="View Online" class="btn btn-info btn-lg mr-3">
-            <i class= "fa fa-external-link"></i>
-            </a>
-            <a href= "https://github.com/YakiniA/06-ServerSideAPIs-WeatherDashboard" target="_blank" data-toggle="tooltip"  data-placement="top"  title="View Source" class="btn btn-info btn-lg ">
-              <i class= "fa fa-github"></i>
-              </a>
-        </div>
-      </div>
-      <!-- ml-2 mb-5 -->
-      <div class="card " style="width: 450px; ">
-        <img src="Assets/Images/PasswordGeneratorPortfolio.jpg" class="card-img-top" alt="Weather Dashboard" style="width:100%">
-        <div class="card-body">
-          <h5 class="card-title">Password Generator</h5>
-          <p class="card-text">Web Application where random password generation is done, depending on the preferences from the user.</p>
-          <a href= "https://yakinia.github.io/03-Javascript-PasswordGenerator/" target="_blank"  data-toggle="tooltip" data-placement="top"  title="View Online" class="btn btn-info btn-lg mr-3">
-            <i class= "fa fa-external-link"></i>
-            </a>
-            <a href= "https://github.com/YakiniA/03-Javascript-PasswordGenerator" target="_blank" data-toggle="tooltip"  data-placement="top"  title="View Source" class="btn btn-info btn-lg ">
-              <i class= "fa fa-github"></i>
-              </a>
-        </div>
-      </div>
+  <div class="container p-3 m-10">
+        <div class="row ml-2">
+            <header class="col">
+            <h3>Portfolio</h3>
+            </header>
+        </div> 
+        <br/>
 
-    </div>
+        <table>
+           
+            <tbody>
+                <tr>
+                    <td  class="year">Now</td>
+                    <td>
+                        <div class="project-description">
+                            <strong>Looking for new opportunities as a full stack web Developer. Currently persuing Full Stack Web Developer degree from the University of Utah.</strong><br><br>
+                            <div class= "technologies">Techologies: <br></div>
+                            <div class= "tech-details">HTML, CSS, Bootstrap, Materialize CSS, jQuery, NodeJS<br/></div>
+                            <div class= "projects">Projects: <br></div>
+                            <div class= "proj-details">
+                                <a href="portfolio.html">Space Exploration</a>,
+                                <a href="portfolio.html">Code Quiz</a>, 
+                                <a href="portfolio.html">Weather Dashboard</a>
+                                <a href="portfolio.html">Password Generator</a>,
+                                <a href="portfolio.html">WorkDay Scheduler</a>
+                         
+                            <br><br></div>
+                            <a href="contact.html">Contact me</a>  I will answer you in ~24 hours.<br><br><hr>
+                           
+                            </div>
+                      
+                        </div>
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td  class="year">2019 - 2020</td>
+                    <td> 
+                        <div class="project-description">
+                        Worked as a Performance Test Engineer at Frugal Inc., Involved in both manual as well as performance testing projects. Concentrated on usability testing and also helped in finding more bugs in their product<br><br>
+                        <div class= "technologies">Techologies: <br></div>
+                        <div class= "tech-details"> Apache JMeter, Load Runner, Java, Google Sheets, Mobile Compatability Testing.<br/></div>
+                        <div class= "projects">Projects: <br></div>
+                        <div class= "proj-details">Money On Mobile, Lernwise, Good Manufacturing, CRC, Zoom, Middle East Corporate <br>
+                        <br/></div><hr>
 
-    <div class="row ">
-     
-     <!-- ml-2 mr-4 mb-5 -->
-      <div class="card  " style="width: 450px; ">
-        <img src="Assets/Images/WorkdaySchedulerPortfolio.jpg" class="card-img-top" alt="Workday Scheduler" style="width:100%">
-        <div class="card-body">
-          <h5 class="card-title">Workday Scheduler</h5>
-          <p class="card-text">Web Apllication that helps the user to save events for each hour of the day.</p>
-          <a href= "https://yakinia.github.io/05-ThirdPartyAPIs-WorkDayScheduler/" target="_blank"  data-toggle="tooltip" data-placement="top"  title="View Online" class="btn btn-info btn-lg mr-3">
-            <i class= "fa fa-external-link"></i>
-            </a>
-            <a href= "https://github.com/YakiniA/05-ThirdPartyAPIs-WorkDayScheduler" target="_blank" data-toggle="tooltip"  data-placement="top"  title="View Source" class="btn btn-info btn-lg ">
-              <i class= "fa fa-github"></i>
-              </a>
-        </div>
-      </div>
+                        </div>
+                    </td>
+                </tr>
 
-    </div>
+                <tr>
+                    <td  class="year">2017 - 2019</td>
+                    <td> 
+                        <div class="project-description">
+                            Worked on Manual as well as Automation Testing projects. Used Selenium and TestNG framework to perform automation testing on websites. <br><br>
+                            <div class= "technologies">Techologies: <br></div>
+                            <div class= "tech-details"> Selenium, TestNG, Java, Eclipse.<br/></div>
+                            <div class= "projects">Projects: <br></div>
+                            <div class= "proj-details"><a href="https://github.com/YakiniA/SampleProject">Flight Booking</a>,
+                                <a href="https://github.com/YakiniA/FindingAggregate">Java Finding Aggregate</a>, 
+                                <a href="https://github.com/YakiniA/OdooApplnTruClient">Odoo TruClient</a><br>
+                            <div class= "certifications">Certification: </div>
+                                 ISTQB - Foundation level<br><br><hr>
+                        </div>
+                     
+                </tr>
+
+                <tr>
+                    <td  class="year">2014 - 2017</td>
+                    <td> 
+                        <div class="project-description">
+                            Helped in opening an ECommerce store to sell their party supply items online. Also involved in performing SEO to boost up the sales and did promotion on social media sites including facebook, pinterest.<br><br>
+                            <div class= "technologies">Techologies: <br></div>
+                            <div class= "tech-details">ECommerceSite, Social Media For Promotion, Google Sheets.
+
+                           <br><br></div><hr>
+                        </div>
+                     
+                </tr>
+
+                <tr>
+                    <td  class="year">2011 - 2013</td>
+                    <td> 
+                        <div class="project-description">
+                            Worked on Java Projects that uses Rest API services. Being part on both development and testing. Reviewing the existing Java code and developing unit level test cases in Junit by applying the various test design techniques such as boundary value analysis, decision table, state transition, etc.
+                            Executing the Junit test cases to ensure code quality and coverage. Executing and reporting the Junit and SOAPUI test results.
+
+                            <br><br>
+                            <div class= "technologies">Techologies: <br></div>
+                            <div class= "tech-details">Java, JUnit, Rest API, SOAP UI.
+                           
+                          <br><br></div><hr>
+                        </div>
+                     
+                </tr>
+
+                <tr>
+                    <td  class="year">2006 - 2010</td>
+                    <td> 
+                        <div class="project-description">
+                            
+                          Completed Bachelors in Engineering in Crescent Engineering College.
+                            <br><br>
+                           
+                        </div>
+                     
+                </tr>
+            </tbody>
+        </table>
+   
   </div>
-
 <footer>
   Copyright &copy; 2020
 </footer>
 
-<script>
-// $(document).on("click", '.imagecontainer', function(event){
-//   event.preventDefault();
- 
-//  $('section div').removeClass('active');
-// //  $('.card-reveal').hide();
- 
-//  var active = $(this).addClass('active');
-//  $('.card-reveal').hide();
-//  $('.card-reveal').attr("style", "transform:translateY(0px);");
-//  const mq = window.matchMedia( "(max-width: 600px)" );
-//  const mq1 = window.matchMedia( "(max-width: 993px)" );
-//  if(mq.matches){
-//       if($('div a').hasClass('active')){
-//           $(".side-block").empty();
-//       }
-//     }
-
-// if($('.imagecontainer').hasClass('active')){
-//   console.log($(this));
-//   $(this.children[0]).hide();
-//   $(this.children[1]).hide();
-
-//   $('.card-reveal').attr("style", "transform:translateY(-100%)");
-//   $('.card-reveal').show();
-
-// }
-//   });
-
-  
-  // $('a').on("click", function(event){
-  //   event.preventDefault();
-  //   $('a').show();
-  // })
-  </script>
 </body>
 </html>
