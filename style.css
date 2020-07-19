@@ -43,6 +43,7 @@ body{
 .imgResponsive{
     max-width:180px;
     height:auto;
+    /* margin-top: -15px !important; */
 }
 
 p{
@@ -161,6 +162,12 @@ div.card:hover{
         margin-left: 3%;
         
     }  
+
+   
+    .imgResponsive{
+        max-width: 90%;
+        height:auto;
+    }
 }    
 @media screen and (max-width: 410px) {
     .contact-details{

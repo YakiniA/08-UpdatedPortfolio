@@ -1,4 +1,4 @@
-## Unit 02 CSS and Bootstrap: Responsive Portfolio
+## Unit 08 : Updated Portfolio
 
 This assignment mainly focuses on updating the already existing portfolio. The web application is primarily developed by using Bootstrap and responsive view achieved by using media queries as needed. This is an updated portfolio with more information and project details.
 
