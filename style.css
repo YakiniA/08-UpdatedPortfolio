@@ -167,6 +167,7 @@ div.card:hover{
     .imgResponsive{
         max-width: 90%;
         height:auto;
+        padding-bottom: 8% !important;
     }
 }    
 @media screen and (max-width: 410px) {
